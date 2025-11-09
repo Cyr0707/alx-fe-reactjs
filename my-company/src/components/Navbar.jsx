@@ -5,11 +5,13 @@ function Navbar() {
   const navStyle = {
     backgroundColor: '#333',
     padding: '10px',
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center',
   };
 
   const linkStyle = {
     color: 'white',
-    margin: '0 15px',
     textDecoration: 'none',
     fontWeight: 'bold',
   };
